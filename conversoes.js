@@ -14,6 +14,12 @@ console.log(numero + numeroString);
 //conversão explícita
 
 //Number () para transformar string em número
-//String() para transformar número em string
+//String() ou "number.toString() para transformar número em string
 
 console.log(numero + Number(numeroString));
+
+//Podemos usar o operador de soma + para fazer a conversão de textos para números,
+//colocando-os antes das variáveis:
+// let largura = "10";
+// let altura = "5";
+// console.log( + largura * + altura);
